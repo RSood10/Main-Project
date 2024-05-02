@@ -1,0 +1,6 @@
+create table Customer_04(
+CustomerID int(7) PRIMARY KEY,
+ Customer_Name varchar(50) not null,
+ Customer_Email varchar(50) not null,
+  Password varchar(50) not null,
+  Address varchar(255) );
